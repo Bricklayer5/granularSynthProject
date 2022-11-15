@@ -8,6 +8,7 @@
   ==============================================================================
 */
 
+
 #pragma once
 #include <JuceHeader.h>
 
@@ -34,5 +35,5 @@ class waveTable
 public:
     waveTable(); //this class will be able to manipulate the wavetable to be different waveshapes and will store the waveTable used by the grain
 
-    
+    juce::AudioSampleBuffer waveTableBuffer;
 };
